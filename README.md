@@ -1,5 +1,5 @@
 # Image Processing using FPGA
-The following is a design for an Image Processing IP for FPGAs based on the Neighborhood Processing algorithm. The IP is capable of performing four operations: Blur, Edge Detection, Sharpen and Emboss. A 3x3 kernel is used to define each operation which can selected through switches on the FPGA.
+The following is a design for an Image Processing IP for FPGAs based on the Neighborhood Processing algorithm. The IP is capable of performing four operations: Blur, Edge Detection, Sharpen and Emboss. A 3x3 kernel is used to define each operation which can selected through switches on the FPGA. It follows the AXI-Stream protocol.
 
 Architecture:
 ![architecture](https://github.com/PankajNair/Image-Processing-using-FPGA/blob/main/architecture.png)
