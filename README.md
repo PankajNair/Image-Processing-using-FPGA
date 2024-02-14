@@ -1,7 +1,8 @@
 # Image Processing using FPGA
 The following is a design for an Image Processing IP for FPGAs based on the Neighborhood Processing algorithm. The IP is capable of performing four operations: BLUR, EDGE DETECTION, SHARPEN and EMBOSS. A 3x3 kernel is used to define each operation which can selected through switches on the FPGA.
 
-![architecture]([https://github.com/PankajNair/Image-Processing-using-FPGA/blob/main/architecture.png])
+Architecture:
+![architecture](https://github.com/PankajNair/Image-Processing-using-FPGA/blob/main/architecture.png)
 
 The IP can be integrated with the ZYNQ processor to create an Image Processing System with a maximum operating frequency of approximately 105Mhz.
 
